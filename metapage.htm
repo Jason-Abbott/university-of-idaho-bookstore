@@ -1,0 +1,33 @@
+<TITLE>University of Idaho Bookstore Metapage</TITLE>
+
+
+<font size=6>Bookstore MetaPage</font>
+<hr><font size=4>
+These pages are being served from a DELL Optiplex GXM 5100 with 32MB RAM
+and about 1.5GB disk space.</font> It came with a built in 3COM something or other and some SoundBlaster 16 equivalent.  I added a second NIC (Intel
+EtherExpress) to route AppleTalk to a lonely Macintosh.
+<p><font size=4>
+As for software, we're now running Microsoft's <a href="http://www.microsoft.com/infoserv"> Internet Information Server</a> with Windows NT Server 3.51.</font>  I opted for IIS because it is free and has built in support for sending SQL statements through ODBC links.
+<p>
+
+<font size=4>The pages themselves</font> cater to <a href="http://www.netscape.com" target="_top">Netscape</a>
+users and were written in the <a href="http://www.lancs.ac.uk/people/cpaap/pfe" target="_top">
+Programmer's File Editor</a> (don't tell, but I've even used
+<a href="http://www.microsoft.com/msoffice/freestuf/msword/download/ia/ia95/default.htm" target="_top">
+Internet Assistant for Word 95</a> a couple times).  The original graphics
+were first created with Altamira Composer and later <a href="http://www.caligari.com" target="_top"> Caligari 
+trueSpace2</a> and <a href="http://www.adobe.com/Apps/Photoshop.html">
+Photoshop</a>.  Most forms processing is handled by IIS *.idc and *.htx files, though there are a few pages where I've used <a href="http://www.perl.hip.com/" target="_top">Perl 5 for NT</a>
+scripts or even JavaScript.  I'll probably add a few ISAPI thingies as soon as I figure it out.
+<p><font size=4>
+The product database</font> is currently maintained in Microsoft Access 7.0 with links to the external data sources (e.g. dBase) provided by our vendors.  As suggested above, the web pages are fed by SQL statements sent through an ODBC link to this database.  This jargon translates into near brainless upkeep.  Heck, even the people up in sales could probably do it!
+<p><font size=4>
+This server also handles these other pages:</font>
+<ul>
+<li><a href="../../philosophers/philosophers.asp">The Philosophers Page</a> (fairly famous)
+<li><a href="/scripts/cc/ccform.pl" target="_top">Conservative Chronicle Quotes</a> (fairly unknown)
+<li><a href="http://webott.com/jason" target="_top">My own home page</a> (fairly inflammatory)
+</ul>
+Accesses to these pages are now logged to an Access database through ODBC.  I'll have some statistics online as soon as I get around to making the logs presentable with SQL.
+<HR>
+[<A HREF="default.asp" target="_top">Home</A>]
