@@ -4,27 +4,27 @@
 <% dim contact(2), phone, email
 
 Select Case Request.ServerVariables("PATH_INFO")
-   Case "/old/bookstore_01-05-1997/computer/resale.asp" , "/old/bookstore_01-05-1997/computer/search.asp"
+   Case "/computer/resale.asp" , "/computer/search.asp"
       contact(0) = "Erin Adams"
       contact(1) = "<a href='http://www.cs.uidaho.edu/~harr9446'>Mike Harrison</a>"
       contact(2) = "<a href='http://www.uidaho.edu/~skirch/'>Sam Kirchmeier</a>"
       phone = "5518"
       email = "uipcstore"
-   Case "/old/bookstore_01-05-1997/computer/repair.asp"
+   Case "/computer/repair.asp"
       contact(0) = "<a href='http://www.uidaho.edu/~jabbott'>Jason Abbott</a>"
       contact(1) = "<a href='http://www.uidaho.edu/~benk/'>Ben Kirchmeier</a>"
       phone = "5518"
       email = "uipcstore"
-   Case "/old/bookstore_01-05-1997/computer/license.asp"
+   Case "/computer/license.asp"
       contact(0) = "Matt Dessert"
       contact(1) = "<a href='http://www.uidaho.edu/~skirch/'>Sam Kirchmeier</a>"
       phone = "5518"
       email = "license"
-   Case "/old/bookstore_01-05-1997/books/packets.asp"
+   Case "/books/packets.asp"
       contact(0) = "Patty Carscallen"
       phone = "2517"
       email = "pattyc"
-   Case "/old/bookstore_01-05-1997/books/buyback.asp"
+   Case "/books/buyback.asp"
       contact(0) = "Larry Martin"
       phone = "7038"
       email = "larry"
@@ -55,10 +55,10 @@ if contact(0) = "" then %>
 
 <tr>
    <td valign=top align=right><font size=2 face="Arial"><b>Phone:</b></font></td>
-   <td><font size=2 face="Arial">(208) 885-<%= phone %></td>
+   <td><font size=2 face="Arial">(208)ï¿½885-<%= phone %></td>
 <tr>
    <td valign=top align=right><font size=2 face="Arial"><b>FAX:</b></font></td>
-   <td><font size=2 face="Arial">(208) 885-5953</td>
+   <td><font size=2 face="Arial">(208)ï¿½885-5953</td>
 <tr>
    <td valign=top align=right><font size=2 face="Arial"><b>e-mail:</b></font></td>
    <td><font size=2 face="Arial"><a href="mailto:<%= email %>@uidaho.edu"><%= email %>@uidaho.edu</td>
