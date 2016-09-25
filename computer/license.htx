@@ -1,0 +1,90 @@
+<html>
+<head><title>Computer Department Site-licensing</title></head>
+<body bgcolor="#ffffff" background="/line.gif" link="765f00" vlink="765f00">
+
+<a href="/default.htm"><img src="/title.jpg" border=0></a>
+
+<table>
+<tr>
+   <td valign=top><img src="/computer_icon.jpg"><br><img src="/spacer.gif"></td>
+   <td>
+      <table cellpadding=8>
+      <tr>
+         <td valign=top><font size=5 face="arial"><b>Computer Department</b></font><br>
+            <font size=2><font face="Arial">Site-licensing</font>
+            </td>
+         <td valign=top align=center><table bgcolor="#fcf4b2"><tr><td>
+            <table colspacing=1 cellpadding=0>
+            <tr>
+               <td valign=top align=right><font size=2 face="arial"><b>Contacts:</b></font></td>
+               <td><font size=2 face="arial">Matthew Dessert<br>
+                  <a href="http://www.uidaho.edu/~skirch/">Sam Kirchmeier</a></font></td>
+            <tr>
+               <td valign=top align=right><font size=2 face="arial"><b>Phone:</b></font></td>
+               <td><font size=2 face="arial">(208) 885-5518</td>
+            <tr>
+               <td valign=top align=right><font size=2 face="arial"><b>FAX:</b></font></td>
+               <td><font size=2 face="arial">(208) 885-5953</td>
+            <tr>
+               <td valign=top align=right><font size=2 face="arial"><b>e-mail:</b></font></td>
+               <td><font size=2 face="arial"><a href="mailto:uipcstore@uidaho.edu">uipcstore@uidaho.edu</a></font></td>
+            </table>
+         </td></table>
+      <tr>
+         <td valign=top>
+
+<font face="arial"><b>Who</b></font>
+<br>
+We offer licenses from Microsoft, Apple and WordPerfect (soon to be Corel).  Please call
+for information on specific offerings.  <a href="http://www.uidaho.edu/csrv">Computer
+Services</a>, last I heard, offers licenses for Novell, SPSS, SAS, Systat, ESRI and
+MicroX.  They can be contacted at 885-APAL.
+
+         </td>
+         <td valign=top>
+
+<font face="arial"><b>Why</b></font>
+<br>
+The biggest reason, presumably, is cost, a benefit which grows with the number of
+licenses purchased.  Additionally, the Computer Department manages updates and keeps track
+of your licenses, providing the licensee with some level of confidence.
+
+         </td>
+      </table>
+
+<table cellpadding=3 cellspacing=1>
+<tr>
+   <td rowspan=2 valign=top bgcolor="a6c5e5"><font face="arial"><b>Publisher</b></td>
+   <td rowspan=2 align=center valign=top bgcolor="a6c5e5"><font face="arial"><b>Title</b></td>
+   <td colspan=3 align=center bgcolor="a6c5e5"><font face="arial"><b>Platform(s)</b></td>
+   <td colspan=3 align=center bgcolor="a6c5e5"><font face="arial"><b>Cost</b></td>
+   <td rowspan=2 align=center valign=top bgcolor="a6c5e5"><font face="arial"><b>Disks</b></td>
+<tr>
+   <td><font size=1 face="arial">Win32</font></td>
+   <td><font size=1 face="arial">Win16</font></td>
+   <td><font size=1 face="arial">Mac</font></td>
+   <td><font size=1 face="arial">License</font></td>
+   <td><font size=1 face="arial">Maintenance</font></td>
+   <td><font size=1 face="arial">Disk Set</font></td>
+
+<%begindetail%>
+
+<tr>
+   <td align=right><%publisher%></td>
+   <td bgcolor="#fcf4b2"><%title%></td>
+   <td align=center><%if win32 EQ "1"%>•<%endif%></td>
+   <td align=center bgcolor="#eeeeee"><%if win16 EQ "1"%>•<%endif%></td>
+   <td align=center><%if mac EQ "1"%>•<%endif%></td>
+   <td align=center bgcolor="#fcf4b2">$<%license%></td>
+   <td align=center>$<%maint%></td>
+   <td align=center>$<%disks%></td>
+   <td align=center><%qty%></td>
+
+<%enddetail%>
+
+</table>
+
+   </td>
+</table>
+</body>
+</html>
