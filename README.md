@@ -5,7 +5,7 @@ This repository is an historical record of work done for a campus retailer. It d
 - Created: 1994
 - Platform: EMWACS (precursor to IIS)
 
-Working as the service manager in the computer department of a campus retailer afforded early access to high speed Internet. I used the opportunity to learn HTML, Perl* and CGI (the tools of the time) to build a retail website displaying products loaded from vendor dBase or text files.
+Working as the service manager in the computer department of a campus retailer afforded early access to high speed Internet. I used the opportunity to learn HTML, Perl and CGI (the tools of the time) to build a retail website displaying products loaded from vendor dBase or text files.
 
 Subsequent versions took advantage of Microsoft's first data templating language (`htc` and `idc` files) for the web and later Active Server Pages with Server Side Includes and ODBC data connections.
 
