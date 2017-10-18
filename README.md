@@ -2,7 +2,7 @@
 
 This repository is an historical record of work done for a campus retailer. It does not represent a current site.
 
-- Created: 1994
+- Created: **1994**
 - Platform: EMWACS (precursor to IIS)
 
 Working as the service manager in the computer department of a campus retailer afforded early access to high speed Internet. I used the opportunity to learn HTML, Perl and CGI (the tools of the time) to build a retail website displaying products loaded from vendor dBase or text files.
